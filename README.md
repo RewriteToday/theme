@@ -4,9 +4,9 @@
 
 The official editor themes for Rewrite.
 
-From landing page snippets to everyday coding, keep the Rewrite palette close in Zed and Visual Studio Code with matching dark and light modes.
+From landing page snippets to everyday coding, keep the Rewrite palette close in Zed, Visual Studio Code, and Neovim with matching dark and light modes.
 
-[Zed README](./zed/README.md) • [Visual Studio Code README](./vscode/README.md) • [Website](https://rewritetoday.com) • [Dashboard](https://dash.rewritetoday.com)
+[Zed README](./zed/README.md) • [Visual Studio Code README](./vscode/README.md) • [Neovim README](./nvim/README.md) • [Website](https://rewritetoday.com) • [Dashboard](https://dash.rewritetoday.com)
 
 </div>
 
@@ -20,6 +20,7 @@ Each package owns its own installation flow, usage notes, and editor-specific de
 
 - [Zed](./zed/README.md)
 - [Visual Studio Code](./vscode/README.md)
+- [Neovim](./nvim/README.md)
 
 <div align="center">
 
@@ -34,7 +35,7 @@ Each package owns its own installation flow, usage notes, and editor-specific de
 
 ## Contribute
 
-Want to refine token colors, improve contrast, or keep both editor packages visually aligned? This repository is split by target on purpose: `zed/` owns the Zed extension package, `vscode/` owns the Visual Studio Code extension package, and `scripts/` holds the shared release helpers.
+Want to refine token colors, improve contrast, or keep every editor package visually aligned? This repository is split by target on purpose: `zed/` owns the Zed extension package, `vscode/` owns the Visual Studio Code extension package, `nvim/` owns the Neovim documentation, and the Neovim runtime lives at the repository root in `colors/` and `lua/` so plugin managers can install it directly from GitHub.
 
 </div>
 
@@ -51,9 +52,10 @@ When you contribute, keep the workflow simple and consistent:
 
 1. Update the source theme file in `zed/themes/rewrite.json`.
 2. Update the matching source file in `vscode/themes/`.
-3. Test both variants locally: `Rewrite Night` and `Rewrite Day`.
-4. Rebuild the VS Code package with `cd vscode && bun install && bun run package`.
-5. Use the scripts in `scripts/` when you want to validate or publish release flows.
+3. Update the Neovim runtime in `colors/` and `lua/`.
+4. Test both variants locally: `Rewrite Night` and `Rewrite Day`.
+5. Rebuild the VS Code package with `cd vscode && bun install && bun run package`.
+6. Use the scripts in `scripts/` when you want to validate or publish release flows.
 
 <div align="center">
 
