@@ -1,0 +1,49 @@
+{
+  "name": "rewrite",
+  "displayName": "Rewrite Theme",
+  "description": "A dark Visual Studio Code theme based on the Rewrite landing page code palette.",
+  "version": "0.1.0",
+  "publisher": "rewritetoday",
+  "license": "Apache-2.0",
+  "packageManager": "bun@1.3.9",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "rewrite",
+    "theme",
+    "dark theme",
+    "landing page"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RewriteToday/theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RewriteToday/theme/issues"
+  },
+  "homepage": "https://github.com/RewriteToday/theme#readme",
+  "galleryBanner": {
+    "color": "#0b0d10",
+    "theme": "dark"
+  },
+  "scripts": {
+    "package": "./scripts/package.sh",
+    "publish:extension": "./scripts/publish.sh"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rewrite Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rewrite-night-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1"
+  }
+}
