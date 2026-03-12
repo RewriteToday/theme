@@ -14,6 +14,7 @@ trap cleanup EXIT
 mkdir -p "$TMP_DIR/themes"
 
 cp "$ROOT_DIR/package.json" "$TMP_DIR/package.json"
+cp "$ROOT_DIR/README.md" "$TMP_DIR/README.md"
 cp "$ROOT_DIR/LICENSE" "$TMP_DIR/LICENSE"
 cp "$ROOT_DIR/.vscodeignore" "$TMP_DIR/.vscodeignore"
 cp "$ROOT_DIR"/themes/*.json "$TMP_DIR/themes/"
