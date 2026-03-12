@@ -14,7 +14,7 @@ Bring the same Rewrite palette into Neovim with an automatic colorscheme, explic
 
 ## Install
 
-The Neovim runtime is exposed at the repository root on purpose, so plugin managers can install it directly from GitHub.
+This directory is documentation only. The installable Neovim runtime is exposed at the repository root on purpose, so plugin managers can install it directly from GitHub.
 
 </div>
 

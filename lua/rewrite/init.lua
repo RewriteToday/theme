@@ -22,22 +22,24 @@ local function resolve_variant(style)
 end
 
 local function apply_terminal_colors(palette)
-	vim.g.terminal_color_0 = palette.bg
-	vim.g.terminal_color_1 = palette.error
-	vim.g.terminal_color_2 = palette.git_add
-	vim.g.terminal_color_3 = palette.warning
-	vim.g.terminal_color_4 = palette.info
-	vim.g.terminal_color_5 = palette.type_ref
-	vim.g.terminal_color_6 = palette.accent
-	vim.g.terminal_color_7 = palette.fg_soft
-	vim.g.terminal_color_8 = palette.comment
-	vim.g.terminal_color_9 = palette.error
-	vim.g.terminal_color_10 = palette.success
-	vim.g.terminal_color_11 = palette.accent
-	vim.g.terminal_color_12 = palette.info
-	vim.g.terminal_color_13 = palette.type_ref
-	vim.g.terminal_color_14 = palette.accent
-	vim.g.terminal_color_15 = palette.fg
+	local terminal = palette.terminal
+
+	vim.g.terminal_color_0 = terminal.black
+	vim.g.terminal_color_1 = terminal.red
+	vim.g.terminal_color_2 = terminal.green
+	vim.g.terminal_color_3 = terminal.yellow
+	vim.g.terminal_color_4 = terminal.blue
+	vim.g.terminal_color_5 = terminal.magenta
+	vim.g.terminal_color_6 = terminal.cyan
+	vim.g.terminal_color_7 = terminal.white
+	vim.g.terminal_color_8 = terminal.bright_black
+	vim.g.terminal_color_9 = terminal.bright_red
+	vim.g.terminal_color_10 = terminal.bright_green
+	vim.g.terminal_color_11 = terminal.bright_yellow
+	vim.g.terminal_color_12 = terminal.bright_blue
+	vim.g.terminal_color_13 = terminal.bright_magenta
+	vim.g.terminal_color_14 = terminal.bright_cyan
+	vim.g.terminal_color_15 = terminal.bright_white
 end
 
 function M.setup(options)

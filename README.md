@@ -14,7 +14,7 @@ From landing page snippets to everyday coding, keep the Rewrite palette close in
 
 ## Pick your editor
 
-Each package owns its own installation flow, usage notes, and editor-specific details.
+Each editor has its own installation flow, usage notes, and editor-specific details.
 
 </div>
 
@@ -35,7 +35,7 @@ Each package owns its own installation flow, usage notes, and editor-specific de
 
 ## Contribute
 
-Want to refine token colors, improve contrast, or keep every editor package visually aligned? This repository is split by target on purpose: `zed/` owns the Zed extension package, `vscode/` owns the Visual Studio Code extension package, `nvim/` owns the Neovim documentation, and the Neovim runtime lives at the repository root in `colors/` and `lua/` so plugin managers can install it directly from GitHub.
+Want to refine token colors, improve contrast, or keep every editor package visually aligned? This repository is split by target on purpose: `zed/` owns the Zed extension package, `vscode/` owns the Visual Studio Code extension package, `nvim/` holds the Neovim documentation, and the Neovim runtime itself lives at the repository root in `colors/` and `lua/` so plugin managers can install it directly from GitHub.
 
 </div>
 
