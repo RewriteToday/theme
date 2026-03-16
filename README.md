@@ -8,9 +8,7 @@ From landing page snippets to everyday coding, keep the Rewrite palette close in
 
 [Zed README](./zed/README.md) • [Visual Studio Code README](./vscode/README.md) • [Neovim README](./nvim/README.md) • [Website](https://rewritetoday.com) • [Dashboard](https://dash.rewritetoday.com)
 
-</div>
-
-<div align="center">
+<img src="https://cdn.rewritetoday.com/assets/banners/theme.jpeg" width="100%" alt="Rewrite Banner"/>
 
 ## Pick your editor
 
@@ -28,10 +26,6 @@ Each editor has its own installation flow, usage notes, and editor-specific deta
 
 `Rewrite Night` keeps the darker Rewrite atmosphere close to the landing page code previews.  
 `Rewrite Day` keeps the same hierarchy, the same amber accent, and the same editorial feel in a warmer light mode.
-
-</div>
-
-<div align="center">
 
 ## Contribute
 
