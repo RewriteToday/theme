@@ -8,9 +8,7 @@ Bring the same Rewrite palette into Neovim with an automatic colorscheme, explic
 
 [Repository](https://github.com/RewriteToday/theme) • [Website](https://rewritetoday.com) • [Dashboard](https://dash.rewritetoday.com)
 
-</div>
-
-<div align="center">
+<img src="https://cdn.rewritetoday.com/assets/banners/theme.jpeg" width="100%" alt="Rewrite Banner"/>
 
 ## Install
 

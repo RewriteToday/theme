@@ -8,6 +8,8 @@ From quick prototypes to production work, keep the Rewrite look close with a war
 
 [Repository](https://github.com/RewriteToday/theme) • [Website](https://rewritetoday.com) • [Dashboard](https://dash.rewritetoday.com)
 
+<img src="https://cdn.rewritetoday.com/assets/banners/theme.jpeg" width="100%" alt="Rewrite Banner"/>
+
 </div>
 
 <div align="center">

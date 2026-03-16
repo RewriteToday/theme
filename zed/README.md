@@ -8,6 +8,8 @@ Bring the same palette from the Rewrite landing page code previews into your edi
 
 [Repository](https://github.com/RewriteToday/theme) • [Website](https://rewritetoday.com) • [Dashboard](https://dash.rewritetoday.com)
 
+<img src="https://cdn.rewritetoday.com/assets/banners/theme.jpeg" width="100%" alt="Rewrite Banner"/>
+
 </div>
 
 <div align="center">
