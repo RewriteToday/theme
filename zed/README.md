@@ -4,7 +4,7 @@
 
 The official Rewrite theme extension for Zed.
 
-Bring the same palette from the Rewrite landing page code previews into your editor with `Rewrite Night` and `Rewrite Day`.
+Bring the same palette from the Rewrite landing page code previews into your editor with *Rewrite Night* and *Rewrite Day*.
 
 [Repository](https://github.com/RewriteToday/theme) • [Website](https://rewritetoday.com) • [Dashboard](https://dash.rewritetoday.com)
 
@@ -16,29 +16,18 @@ Bring the same palette from the Rewrite landing page code previews into your edi
 
 ## Install
 
-Start from the Rewrite theme repository on GitHub, clone it locally, and run the installer script from the Zed package.
+Install it directly from the Zed extensions marketplace. No script, clone, or manual setup is required.
 
 </div>
 
-```bash
-git clone https://github.com/RewriteToday/theme.git
-cd theme
-./zed/scripts/install.sh night
-```
+1. Open Zed.
+2. Open the Extensions view.
+3. Search for *Rewrite Theme*.
+4. Click *Install*.
 
 <div align="center">
 
-Use `day` if you want the light variant from the first run:
-
-</div>
-
-```bash
-./zed/scripts/install.sh day
-```
-
-<div align="center">
-
-The script links the package into Zed, adds the theme file, and updates `settings.json` so the selected variant is already active the next time you open the editor.
+After installing, choose *Rewrite Night* or *Rewrite Day* from the theme selector.
 
 </div>
 
@@ -51,8 +40,7 @@ The script links the package into Zed, adds the theme file, and updates `setting
 ```text
 zed/
 ├─ extension.toml        # Zed extension manifest
-├─ themes/rewrite.json   # Rewrite Night + Rewrite Day
-└─ scripts/install.sh    # One-command local install
+└─ themes/rewrite.json   # Rewrite Night + Rewrite Day
 ```
 
 <div align="center">
